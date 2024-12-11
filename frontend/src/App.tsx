@@ -19,7 +19,7 @@ function App() {
   },[])
   return (
     <>  
-      <input type="text" ref={inputRef} placeholder="input a value...."/>
+      <input type="text" ref={inputRef} placeholder="enter your message"/>
       <button onClick={sendMessage}> send</button>
     </>
   )
